@@ -1,0 +1,570 @@
+* {
+  border: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lunasima', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.navBar {
+  height: 3rem;
+  color: whitesmoke;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  padding: 2rem 0 1rem 0;
+
+
+}
+
+.navleft {
+
+  justify-content: space-evenly;
+  font-size: 2rem;
+  width: 40%;
+  font-weight: 500;
+
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.navBar ul li {
+  list-style: none;
+  margin: 0 23px;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navright ul li a:hover {
+  color: blueviolet;
+  transition: background-color 0.5s ease;
+
+
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* 
+@media (max-width:600px) {
+  .navBar {
+
+    height: 11rem;
+    max-width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  
+  
+  }
+
+  .navleft {
+
+    justify-content: space-around;
+    padding-left: 2rem;
+    font-size: 3rem;
+    width:40%;
+    font-weight: 700;
+  
+  }
+
+  .navBar ul {
+    display: flex;
+    justify-content: center;
+  
+  
+  
+  }
+  
+  .navBar ul li {
+    list-style: none;
+    padding: 0 0.5;
+    font-size: 2rem;
+    text-decoration: none;
+  
+  
+  }
+  .navBar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navright ul li a:hover {
+    color: blueviolet;
+    transition: background-color 0.5s ease;
+  
+  
+  
+  }
+  .navright{
+    max-width: 60%;
+  }
+  
+  
+} */
+
+
+.firstsection {
+  height: 400px;
+
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 100%;
+
+
+}
+
+.firstleftsection {
+  margin-top: 6rem;
+  font-size: 3rem;
+  width: 40%;
+  padding-top: 3rem;
+  /* background-color: crimson; */
+  text-align: left;
+  padding-left: 9rem;
+
+
+}
+
+span {
+  color: blueviolet;
+}
+
+.firstrightsection {
+
+  width: 40%;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  /* background-color: crimson; */
+  display: flex;
+  padding-right: 5rem;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
+
+.firstrightsection img {
+  display: block;
+
+  /* background-color: aqua; */
+
+  height: 22rem;
+}
+
+
+
+/* @media (max-width:600px) {
+  
+.firstsection {
+ height: 400px;
+width: 100%;
+
+ 
+  
+
+}
+
+.firstleftsection {
+ 
+  font-size: 1rem;
+  width: 50%;
+  background: crimson;
+
+
+
+}
+
+span {
+  color: blueviolet;
+}
+
+.firstrightsection {
+  font-size: 1rem;
+  height: 400px;
+  width: 50%;
+  background: crimson;
+}
+
+
+  
+} */
+
+
+
+
+.divider-line {
+  border: none;
+  height: 1px;
+  background-color: grey;
+  margin: 180px auto 100px auto;
+  width: 70%;
+}
+
+
+
+
+
+
+/* About Section*/
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  margin: 180px 100px;
+
+}
+
+.about-picture {
+
+  flex: 1;
+}
+
+.about-picture img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.about-info {
+  flex: 2;
+  margin-left: 50px;
+
+
+}
+
+.about-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.download-cv-box {
+  margin-top: 30px;
+}
+
+.download-cv-box a {
+  display: inline-block;
+  background-color: blueviolet;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv-box a:hover {
+  background-color: whitesmoke;
+}
+
+
+
+
+
+/* skills section */
+
+
+
+.skill-section {
+  max-width: 80%;
+  margin: 100px auto;
+  text-align: center;
+  height: 350px;
+
+}
+
+.skill-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+
+.skill-section-both {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.skill-section-left {
+
+  text-align: left;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.about-skill-left-section {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+.skill-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.skill-section-right {
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+
+
+}
+
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.skill-name {
+  flex: 1;
+  color: black;
+  font-weight: 600;
+
+}
+
+
+
+.skill-bar {
+  flex: 4;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: left;
+  justify-content: space-around;
+
+}
+
+
+.skill-level {
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+/* Skill bar colors */
+.html {
+  background-color: blueviolet;
+  width: 100%;
+}
+
+.css {
+  background-color: blueviolet;
+  width: 80%;
+}
+
+.js {
+  background-color: blueviolet;
+  width: 40%;
+}
+
+.java {
+  background-color: blueviolet;
+  width: 70%;
+}
+
+
+
+
+/* contact me section */
+
+.contact-section {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.subscription-section {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.subscription-section h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.backtotop {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+
+}
+
+.backtotop a {
+  text-decoration: none;
+  color: white;
+}
+
+.backtotop a:hover {
+  color: blueviolet;
+}
+
+
+.foot-panel1 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: blueviolet;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  color: black;
+  font-size: 24px;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: white;
+  transition: background-color 0.7s ease;
+}
+
+.email-address p {
+  margin: 20px auto 10px auto;
+  font-weight: 600;
+}

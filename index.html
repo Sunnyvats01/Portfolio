@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+
+<body>
+  <div class="main">
+
+  <header>
+    <div class="navBar" id="navbar">
+      <div class="navleft">
+        <p>Personal Portfolio</p>
+
+      </div>
+      <div class="navright">
+        <ul>
+         
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills </a></li>
+          <li><a href="#contact">Contact </a></li>
+        </ul>
+
+      </div>
+    </div>
+  </header>
+  <div class="firstsection" id="home">
+    <div class="firstleftsection">
+      <div>Hello, I am <span>Sunny</span></div>
+      <div>and i am a passionate</div>
+      <span id="element"></span>
+
+    </div>
+
+    <div class="firstrightsection">
+      <img src="myPic.png">
+
+    </div>
+  </div>
+
+  <hr class="divider-line"  id="about">
+
+
+
+  <section class="about-section" >
+
+    <div class="about-picture">
+      <img src="bg.png  " alt="Profile Picture">
+    </div>
+    <div class="about-info">
+      <h2>About Me</h2>
+      <p>
+        Hi there! My name is Sunny vats, and I'm a passionate web developer. I have a strong interest in creating clean
+        and elegant web designs that provide a seamless user experience.
+        With several years of experience in front-end development, I love working with HTML, CSS, and JavaScript to
+        build responsive and interactive websites.
+        When I'm not coding, you can find me exploring new technologies, reading books, or enjoying the great outdoors.
+      </p>
+      <div class="download-cv-box">
+
+        <a href="Sunny vats_2003263_CSE.pdf" download>Download CV</a>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="divider-line" id="skills">
+
+  <section class="skill-section" >
+    <h2>Skills</h2>
+    <div class="skill-section-both">
+      <div class=" skill-section-left">
+        <p class="skill-heading">Frontend and Backend Developer</p>
+
+        <div class="about-skill-left-section">
+          <p> I am a front-end developer who is dedicated to bringing creativity, technical expertise, and a
+            user-centric approach to every project. With an unwavering commitment to quality and a genuine love for what
+            I do, I am excited to continue my journey in the ever-evolving world of web development. Let's create
+            something remarkable together!</p>
+        </div>
+
+      </div>
+      <div class="skill-section-right">
+        <div class="skill">
+
+          <div class="skill-bar">
+            <div class="skill-level html"><span class="skill-name">HTML</span></div>
+          </div>
+        </div>
+        <div class="skill">
+
+          <div class="skill-bar">
+            <div class="skill-level css"><span class="skill-name">CSS</span></div>
+          </div>
+        </div>
+        <div class="skill">
+
+          <div class="skill-bar">
+            <div class="skill-level js"><span class="skill-name">JavaScript</span></div>
+          </div>
+        </div>
+        <div class="skill">
+
+          <div class="skill-bar">
+            <div class="skill-level java"> <span class="skill-name">Java</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <hr class="divider-line" id="contact">
+
+
+  <section class="subscription-section" >
+    <h2>Stay In Touch</h2>
+    <form>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <hr class="divider-line">
+
+
+  <div class = "backtotop" >
+    <a href="#home">Back to Top</a>
+  </div>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a class="social-icon">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a class="social-icon">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a class="social-icon">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+    </div>
+    <div class="email-address">
+      <p>sunnyvats1201@gmail.com</p>
+    </div>
+  </footer>
+
+</div>
+
+  <!-- Script tags -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-end Developer.'],
+      loop: true,
+      typeSpeed: 50,
+      backSpeed:80,
+      backDelay:1500
+    });
+  </script>
+
+
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.getElementById('navbar');
+      const distanceFromTop = navbar.getBoundingClientRect().top;
+
+      if (distanceFromTop <= 0) {
+        navbar.classList.add('sticky');
+      } else {
+        navbar.classList.remove('sticky');
+      }
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.0/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
