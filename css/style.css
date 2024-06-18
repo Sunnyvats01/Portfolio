@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: black;
+  color: rgb(211, 207, 207);
+}
+
+
+.main{
+  width: 90%;
+  margin: auto;
+}
+
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  background-color: black;
+}
+
+.navBar .left p {
+  color: rgb(211, 207, 207);
+  font-size: 2.2rem;
+  font-weight: 400;
+
+}
+
+.navBar .right {
+  width: 40%;
+}
+
+.navBar .right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.navBar .right ul li a {
+  text-decoration: none;
+  color: rgb(211, 207, 207);
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+
+.firstsection .left {
+  font-size: 2.6rem;
+  font-weight: 400;
+  width: 50%;
+}
+
+
+.firstsection .left span {
+  color: blueviolet;
+}
+
+
+
+.firstsection .right {
+
+  width: 50%;
+  position: relative;
+  height: 22rem;
+  width: 22rem;
+
+}
+
+.firstsection .right img {
+
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.divider-line {
+  width: 90%;
+  margin: auto;
+}
+
+.about-section{
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  grid-template-columns: 1fr 2fr;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 90%;
+}
+
+
+.about-section .about-picture{
+  position: relative;
+  height: 25rem;
+  width: 30rem;
+}
+
+.about-section .about-picture img{
+  position: absolute;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+
+.about-section .about-info h2{
+
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+
+.about-section .about-info P{
+  line-height: 1.8rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
